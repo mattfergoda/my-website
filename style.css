@@ -5,7 +5,7 @@ body {
 nav {
   display: flex;
   flex-direction: row;
-  background: black;
+  background: rgb(0, 51, 0);
   clear: both;
   justify-content: space-between;
   align-items: center;
@@ -26,7 +26,7 @@ nav a {
 }
 
 .page-links a {
-  padding: 0px 2px;
+  padding: 0px 10px;
 }
 
  a:hover {
@@ -35,6 +35,12 @@ nav a {
  
  a:link {
   text-decoration: none;
+ }
+
+ h1 {
+  color: rgb(0, 51, 0);
+  text-align: center;
+  margin: 1% 0%;
  }
 
  #About {
@@ -55,15 +61,11 @@ nav a {
   padding: 5%;
 }
 
-#Contact {
-  display: grid;
-  grid-template-columns: auto auto;
-  flex-direction: row;
-  align-items: center;
- }
 
- #Contact .buttons {
-  grid-column: 1 / 2;
+ .buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
  }
 
 #Contact img {
@@ -71,21 +73,11 @@ nav a {
 }
 
 .fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 50px;
+  padding: 0% 1%;
+  font-size: 200px;
+  width: 30px;
   text-align: center;
   text-decoration: none;
-}
-
-/* Add a hover effect if you want */
-
-.fa-linkedin {
-  background: #007bb5;
-  color: white;
-}
-
-.fa-github, .fa-envelope {
   color: black;
 }
 
@@ -94,6 +86,9 @@ nav a {
 }
 
 footer {
+  color: gray;
+  font-size: 12px;
+  font-style: italic;
   display: flex;
   justify-content: center;
 }
