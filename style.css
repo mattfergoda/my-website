@@ -28,6 +28,7 @@ nav a {
 .page-links a {
   padding: 0px 2px;
 }
+
  a:hover {
   color: gray;
  }
@@ -44,8 +45,8 @@ nav a {
  }
  #About img {
   grid-column: 1 / 2;
-  width: 350px;
-  height: 350px;
+  height: 400px;
+  width: auto;
  }
 
 #About p {
@@ -54,6 +55,45 @@ nav a {
   padding: 5%;
 }
 
-#Experience img {
+#Contact {
+  display: grid;
+  grid-template-columns: auto auto;
+  flex-direction: row;
+  align-items: center;
+ }
 
+ #Contact .buttons {
+  grid-column: 1 / 2;
+ }
+
+#Contact img {
+  height: 200px;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-github, .fa-envelope {
+  color: black;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
 }

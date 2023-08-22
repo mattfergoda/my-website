@@ -5,14 +5,17 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
+  <!-- Page font "Noto Sans" from Google -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&display=swap" rel="stylesheet">
-  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&display=swap" rel="stylesheet">
+  <!-- For LinkedIn button, found here: https://www.w3schools.com/howto/howto_css_social_media_buttons.asp  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Matt Fergoda</title>
 </head>
 <body>
   <nav>
-      <a class = "name" href="#About">Matt Fergoda</a>
+      <a class = "name" href="#">Matt Fergoda</a>
       <div class="page-links">
         <a href="#Experience">Experience</a>
         <a href="#Contact">Contact</a>
@@ -25,14 +28,29 @@
       <br><br> I've spent the past three years primarily finding machine-learning-based solutions to business problems in healthcare.
       After getting to work alongside devs to develop ML-based products, I realized I wanted to be doing what they were doing.
       <br><br> Now I'm in the process of learning the skills to be a full-stack engineer at <a href="https://www.rithmschool.com/">Rithm School</a>.
+      <br><br> In my spare time you'll find me playing Irish trad music at a local pub or running around in the mountains near Seattle. 
     </p>
   </div>
   <div id="Experience">
     <h1>Experience</h1>
-    <img src="assets/MattFergoda_Resume_06022023.pdf" alt="Matt's resume">
-  </div>
+    <!-- Following code found here: https://www.w3docs.com/snippets/html/how-to-embed-pdf-in-html.html -->
+    <object data="assets/MattFergoda_Resume_06022023.pdf" width="100%" height="500px">
+      <p>Unable to display PDF file. <a target="_blank" href="assets/MattFergoda_Resume_06022023.pdf">Download</a> instead.</p>
+    </object>
+    </div>
   
-  <h1 id="Contact">Contact</h1>
+  <div id="Contact">
+    <div class="buttons">
+      <h1>Contact</h1>
+      <a href="https://github.com/mattfergoda" target="_blank" class="fa fa-github" aria-hidden="true"></a>
+      <a target="_blank" href="https://www.linkedin.com/in/matt-fergoda/" class="fa fa-linkedin"></a>
+      <a href="mailto:matt.fergoda@gmail.com" class="fa fa-envelope" aria-hidden="true"></a>
+    </div>
+  </div>
+  <footer>
+    <!-- <img class="footer-image" src="assets/matterhorn.jpg" alt="A hiking trail with the Matterhorn mountain in the distance, taken by Matt."> -->
+    <p>&#169;2023 Matt Fergoda. All rights reserved.</p>
+  </footer>
 
 </body>
 </html>
