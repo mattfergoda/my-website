@@ -54,6 +54,7 @@ nav a {
   grid-column: 1 / 2;
   height: 400px;
   width: auto;
+  border-radius: 50%;
  }
 
 #About p {
@@ -98,4 +99,5 @@ footer {
 
 footer img {
   height: 300px;
+  padding: 0 0;
 }
