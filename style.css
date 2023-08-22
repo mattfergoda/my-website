@@ -1,0 +1,59 @@
+body {
+  font-family: 'Noto Sans', sans-serif;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  background: black;
+  clear: both;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+nav a {
+  color: white;
+}
+
+.name {
+  font-size: 50px;
+  padding: 1%;
+}
+
+.page-links {
+  padding: 0% 2%;
+  font-size: 30px;
+}
+
+.page-links a {
+  padding: 0px 2px;
+}
+ a:hover {
+  color: gray;
+ }
+ 
+ a:link {
+  text-decoration: none;
+ }
+
+ #About {
+  display: grid;
+  grid-template-columns: auto auto;
+  flex-direction: row;
+  align-items: center;
+ }
+ #About img {
+  grid-column: 1 / 2;
+  width: 350px;
+  height: 350px;
+ }
+
+#About p {
+  text-align: left;
+  font-size: 25px;
+  padding: 5%;
+}
+
+#Experience img {
+
+}
