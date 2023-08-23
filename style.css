@@ -45,25 +45,28 @@ nav a {
  }
 
  #About {
-  display: grid;
-  grid-template-columns: auto auto;
+  display: flex;
   flex-direction: row;
   align-items: center;
  }
  #About img {
-  grid-column: 1 / 2;
+  display: flex;
   height: 400px;
   width: auto;
   border-radius: 50%;
  }
 
-#About p {
+.about-text {
+  display: inline;
   text-align: left;
   font-size: 25px;
   padding: 5%;
+  margin: 0px 0px;
 }
 
-
+.hyperlink {
+  display: inline-block;
+}
  .buttons {
   display: flex;
   flex-direction: row;
